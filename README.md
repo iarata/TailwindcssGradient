@@ -20,15 +20,15 @@ Add the following code src/styles.css:
 
 ### Usage
 You can use this code like this:
-
+```
   <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500">
     Moving Gradient Text
   </div>
-
+```
 
 ## II. Animation
 For making the gradient to animate add the following code to your tailwind config.js file:
-
+```
   theme: {
       extend: {
         animation: {
@@ -70,10 +70,10 @@ For making the gradient to animate add the following code to your tailwind confi
         },
       },
     }
-
+```
 ### Usage
 You can use the animations like this:
-
+```
   <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 animate-gradient-x">
     Moving Gradient Text (X-Axis)
   </div>
@@ -85,4 +85,4 @@ You can use the animations like this:
   <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 animate-gradient-xy">
     Moving Gradient Text (XY-Axis)
   </div>
-
+```
