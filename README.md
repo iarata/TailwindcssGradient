@@ -5,7 +5,7 @@ A trick for making a moving gradient as the text color.
 First we have to set the gradient in way to be used with text
 
 Add the following code src/styles.css:
-'''
+``
 ...
 @tailwind utilities
 
@@ -15,18 +15,18 @@ Add the following code src/styles.css:
     -webkit-text-fill-color: transparent;
   }
 }
-'''
+``
 ### Usage
 You can use this code like this:
-'''
+``
 <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500">
   Moving Gradient Text
 </div>
-'''
+``
 
 ## II. Animation
 For making the gradient to animate add the following code to your tailwind config.js file:
-'''
+``
 theme: {
     extend: {
       animation: {
@@ -68,10 +68,10 @@ theme: {
       },
     },
   }
-'''
+``
 ### Usage
 You can use the animations like this:
-'''
+``
 <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 animate-gradient-x">
   Moving Gradient Text (X-Axis)
 </div>
@@ -83,4 +83,4 @@ You can use the animations like this:
 <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 animate-gradient-xy">
   Moving Gradient Text (XY-Axis)
 </div>
-'''
+``
