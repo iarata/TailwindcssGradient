@@ -6,6 +6,7 @@ First we have to set the gradient in way to be used with text
 
 Add the following code src/styles.css:
 
+```
   ...
   @tailwind utilities
 
@@ -15,6 +16,7 @@ Add the following code src/styles.css:
       -webkit-text-fill-color: transparent;
     }
   }
+```
 
 ### Usage
 You can use this code like this:
