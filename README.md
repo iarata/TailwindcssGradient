@@ -74,7 +74,7 @@ For making the gradient to animate add the following code to your tailwind confi
 ### Usage
 You can use the animations like this:
 ```
-  <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 animate-gradient-x">
+  <div class="text-gradient bg-gradient-to-r from-pink-500 to-yellow-500 **animate-gradient-x**">
     Moving Gradient Text (X-Axis)
   </div>
 
